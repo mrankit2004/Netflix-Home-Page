@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/images/bg\ image.jpg); /** url is used to insert images in css**/
+  height: 105vh; /** vh is viewport height (1vh = 1% of the height)**/
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.main .box {
+  height: 105vh;
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  max-width: 60vw;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 148px;
+  height: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  width: 130px;
+  height: 32px;
+  position: relative;
+  z-index: 10;
+  margin-left: 30px;
+  background-color: red;
+  border: none transparent;
+  border-radius: 5px;
+  color: white;
+  font-family: Martel Sans;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero {
+  font-family: Martel Sans;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 20px;
+  padding: 30px;
+}
+
+.hero > :nth-child(1) {
+  /** greater than sysmbol is used to target immediate first child**/
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.email-address {
+  display: flex;
+  gap: 15px;
+}
+
+#one {
+  width: 365px;
+  height: 56px;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  border-style: groove;
+  border-radius: 5px;
+  font-family: Martel Sans;
+}
+
+.email-address button {
+  width: 214px;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  border-color: red;
+  border-radius: 5px;
+  font-family: Martel Sans;
+}
+
+.seperation {
+  height: 10px;
+  background-color: rgb(33, 33, 33);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+.sec-image {
+  position: relative;
+}
+.sec-image img {
+  width: 33vw;
+  height: 60vh;
+  position: relative;
+  z-index: 10;
+}
+
+.sec-image video {
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+#text-one {
+  font-family: "Segoe UI";
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#text-two {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.video-one video {
+  margin-top: -5px;
+}
+
+.container {
+  width: 305px;
+  height: 104px;
+  background-color: black;
+  color: white;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+  border-radius: 0.75rem;
+  margin-left: 105px;
+  margin-top: -140px;
+  opacity: 0.9;
+  position: absolute;
+}
+
+.subset img {
+  width: 56px;
+  height: 75px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 1rem;
+}
+.subset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#st {
+  font-size: 16px;
+  font-weight: 500;
+  width: 156px;
+  height: 20px;
+  text-align: left;
+  margin-left: -30px;
+}
+#D {
+  font-size: 14px;
+  font-weight: 400;
+  width: 156px;
+  height: 18px;
+  text-align: left;
+  color: rgb(0, 113, 235);
+  margin-left: -30px;
+}
+.text {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 45px;
+}
+.gif {
+  width: 52px;
+  height: 60px;
+  margin-left: -10px;
+  margin-top: -30px;
+}
+
+.gif img {
+  width: 60px;
+}
+
+#mobile-image {
+  width: 522px;
+  height: 390px;
+  position: relative;
+  z-index: -1;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  position: relative;
+  gap: 80px;
+}
+
+#offline {
+  font-family: "Segoe UI";
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#save {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+  text-align: left;
+}
+.seperation1 {
+  margin-top: 5px;
+}
+
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  position: relative;
+  margin-left: -20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#Watch {
+  font-family: "Segoe UI";
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#movies {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+
+#kids {
+  font-family: "Segoe UI";
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#space {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.span-2 {
+  display: flex;
+  flex-direction: column;
+}
+
